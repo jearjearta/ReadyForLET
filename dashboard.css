@@ -18,7 +18,7 @@ body {
 }
 
 .nav-item {
-    align-items: center;
+    align-items: end;
     justify-content: center;
     display: flex;
     height: 40px;
