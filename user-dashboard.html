@@ -13,97 +13,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="dashboard.css">
     <link rel="stylesheet" href="login.css">
-
 </head>
-
-
-<!--========== [Navigation Bar] ==========-->
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-            <img class="me-2" src="images/bootstrap-icons/list.svg" width="24" height="24" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-            <a class="navbar-brand" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
-                aria-controls="offcanvasWithBothOptions"><img src="images/ReadyForLET logo.png" width="30"
-                    height="24"><strong>ReadyForLET</strong> Dashboard</a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#"><img src="images/bootstrap-icons/bell.svg"
-                                alt="Notification" data-bs-toggle="tooltip" title="Notification"
-                                data-bs-placement="bottom"></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            [Username] <img src="images/profile-none.webp" class="rounded" height="24" width="24">
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#"><img src="images/bootstrap-icons/person.svg"
-                                        alt="Profile"> Profile</a></li>
-                            <li><a class="dropdown-item" href="#"><img src="images/bootstrap-icons/gear.svg"
-                                        alt="Settings"> Settings</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#"><img src="images/bootstrap-icons/box-arrow-left.svg"
-                                        alt="Log Out"> Log Out</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <script>
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-    </script>
-</header>
-
-<!--========== [Sidebar] ==========-->
-
-<div class="offcanvas offcanvas-start" style="width: 400px" data-bs-scroll="true" tabindex="-1"
-    id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel" data-bs-backdrop="false">
-    <div class="offcanvas-header">
-        <div class="offcanvas-brand " href="#"><img src="images/ReadyForLET logo.png" width="30"
-                height="24"><strong>ReadyForLET</strong></div>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-
-        <ul class="nav flex-column nav-pills ">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-        </ul>
-
-
-        <div class="row">
-            <div class="container fixed-bottom ms-2">
-                <div class="col">
-                    <p><a class="nav-link" href="#"><img src="images/bootstrap-icons/gear.svg" alt="Settings">
-                            Settings</a></p>
-                    <p><a class="nav-link" href="#"><img src="images/bootstrap-icons/person.svg" alt="Profile">
-                            Profile</a></p>
-                    <hr class="offcanvas-divider" width="300px">
-                    <p><a class="nav-link" href="#"><img src="images/bootstrap-icons/box-arrow-left.svg" alt="Log Out">
-                            Log Out</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
 
 <!--========== [Dashboard Main] ==========-->
 
@@ -123,7 +33,7 @@
             <div class="row justify-content-center align-content-end">
 
                 <div class="card me-2" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/bodybg.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -133,7 +43,7 @@
                 </div>
 
                 <div class="card me-2" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/bodybg.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -143,7 +53,7 @@
                 </div>
 
                 <div class="card me-2" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/bodybg.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -198,13 +108,166 @@
     </div>
 </body>
 
+
+
+<!--========== [Navigation Bar] ==========-->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <img class="me-2" src="images/bootstrap-icons/list.svg" width="24" height="24" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            <a class="navbar-brand" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                aria-controls="offcanvasWithBothOptions"><img src="images/ReadyForLET logo.png" width="30"
+                    height="24"><strong>ReadyForLET</strong> Dashboard</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#" data-bs-toggle="modal"
+                            data-bs-target="#notifModal"><img src="images/bootstrap-icons/bell.svg" alt="Notification"
+                                data-bs-toggle="tooltip" title="Notification" data-bs-placement="bottom"></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            [Username] <img src="images/profile-none.webp" class="rounded" height="24" width="24">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="userprofile.html"><img
+                                        src="images/bootstrap-icons/person.svg" alt="Profile"> Profile</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#settingsModal"><img src="images/bootstrap-icons/gear.svg"
+                                        alt="Settings">
+                                    Settings</a></li>
+                            <li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="index.html"><img
+                                        src="images/bootstrap-icons/box-arrow-left.svg" alt="Log Out"> Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</header>
+
+<!--========== [Sidebar] ==========-->
+
+<div class="offcanvas offcanvas-start" style="width: 400px" data-bs-scroll="true" tabindex="-1"
+    id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel" data-bs-backdrop="false">
+    <div class="offcanvas-header">
+        <div class="offcanvas-brand " href="#"><img src="images/ReadyForLET logo.png" width="30"
+                height="24"><strong>ReadyForLET</strong></div>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+        <ul class="nav flex-column nav-pills ">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+            </li>
+            <hr class="offcanvas-divider" width="300px">
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Data <sub>(Disabled)</sub></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Analysis <sub>(Disabled)</sub></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">History <sub>(Disabled)</sub></a>
+            </li>
+        </ul>
+
+
+        <div class="row">
+            <div class="container fixed-bottom ms-2">
+                <div class="col">
+                    <p><a class="nav-link" href="userprofile.html" data-bs-toggle="modal"
+                            data-bs-target="#notifModal"><img src="images/bootstrap-icons/bell.svg" alt="Notifications">
+                            Notifications</a></p>
+                    <p><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#settingsModal"><img
+                                src="images/bootstrap-icons/gear.svg" alt="Settings">
+                            Settings</a></p>
+                    <p><a class="nav-link" href="userprofile.html"><img src="images/bootstrap-icons/person.svg"
+                                alt="Profile">
+                            Profile</a></p>
+                    <hr class="offcanvas-divider" width="300px">
+                    <p><a class="nav-link" href="index.html"><img src="images/bootstrap-icons/box-arrow-left.svg"
+                                alt="Log Out">
+                            Log Out</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--========== [Settings Modal] ==========-->
+
+<div class="modal fade" id="settingsModal" tabindex="-1" aria-labelledby="exampleModalLabel" data-bs-backdrop="static"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Settings</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Developer Mode</label>
+                </div>
+
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Hyper Mode</label>
+                </div>
+
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Enable Setting</label>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--========== [Notification Modal] ==========-->
+
+<div class="modal fade" id="notifModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Notifications</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <p><sub>There seems to be nothing here.</sub></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--========== [Footer] ==========-->
 
 <footer class="text-start text-white mt-5 pt-3 pb-3 bg-primary">
     <div class="container">
         <p><img src="images/ReadyForLET logo.png" width="30" height="24"><strong>ReadyForLET</strong></p>
         <p>&copy; 2023 All Rights Reserved.</p>
-        <p>Contact: readyforlet@gmail.com</p>
+        <a class="nav-link" href="mailto:readyforlet@gmail.com" style="color: white">Contact: readyforlet@gmail.com</a>
     </div>
 </footer>
 
@@ -217,5 +280,9 @@
 
     .main-content {
         padding-top: 50px;
+    }
+
+    body {
+        overflow-x: hidden
     }
 </style>
