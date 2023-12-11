@@ -15,59 +15,64 @@
     <link rel="stylesheet" href="login.css">
 </head>
 
-    <!--========== [Registration] ==========-->
+<!--========== [Registration] ==========-->
+
 <body class="main-content">
     <div class="container mt-5 border-3">
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <h2 class="mb-4">User Registration</h2>
-          <form>
-            <div class="mb-3">
-              <label for="inputName" class="form-label">Full Name</label>
-              <input type="text" class="form-control" id="inputName" placeholder="Enter your full name" required>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2 class="mb-4">User Registration</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="inputName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter your full name"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Enter your password"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="confirmPassword" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirmPassword"
+                            placeholder="Confirm your password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                    <a type="button" class="btn btn-secondary" href="index.html">Cancel</a>
+                </form>
             </div>
-            <div class="mb-3">
-              <label for="inputEmail" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email" required>
-            </div>
-            <div class="mb-3">
-              <label for="inputPassword" class="form-label">Password</label>
-              <input type="password" class="form-control" id="inputPassword" placeholder="Enter your password" required>
-            </div>
-            <div class="mb-3">
-              <label for="confirmPassword" class="form-label">Confirm Password</label>
-              <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Register</button>
-            <a type="button" class="btn btn-secondary" href="index.html">Cancel</a>
-          </form>
         </div>
-      </div>
     </div>
 
     <!--========== [Navigation Bar] ==========-->
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="images/ReadyForLET logo.png" width="30"
-                    height="24"><strong>ReadyForLET</strong></a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/ReadyForLET logo.png" width="30"
+                        height="24"><strong>ReadyForLET</strong></a>
             </div>
-        </div>
-    </nav>
-    <script>
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-    </script>
-</header>
+            </div>
+        </nav>
+        <script>
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        </script>
+    </header>
 
-<!--========== [User Dashboard Page Styles] ==========-->
+    <!--========== [User Dashboard Page Styles] ==========-->
 
-<style>
-    .main-content {
-        padding-top: 50px;
-    }
+    <style>
+        .main-content {
+            padding-top: 50px;
+        }
 
-    body {
-        overflow-x: hidden
-    }
-</style>
+        body {
+            overflow-x: hidden
+        }
+    </style>
