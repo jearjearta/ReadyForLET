@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-
+    
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 const login_event = document.querySelectorAll('.login_event');
 const overlay = document.getElementById('login_form');
 
